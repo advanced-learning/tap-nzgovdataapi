@@ -18,7 +18,7 @@ else:
 class SchoolDirectoryStream(NZGovDataAPIStream):
     """Returns stream of NZ school data."""
 
-    name = "school_directory"
+    name = "nz_school_directory"
     path = "/datastore_search?resource_id=4b292323-9fcc-41f8-814b-3c7b19cf14b3"
     primary_keys: t.ClassVar[list[str]] = ["_id"]
     replication_key = None
