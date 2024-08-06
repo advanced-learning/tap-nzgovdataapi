@@ -25,6 +25,7 @@ class SchoolDirectoryStream(NZGovDataAPIStream):
     schema = th.PropertiesList(
         th.Property("_id", th.NumberType),
         th.Property("School_Id", th.StringType),
+        th.Property("Org_Name", th.StringType),
         th.Property("Telephone", th.StringType),
         th.Property("Fax", th.StringType),
         th.Property("Email", th.StringType),
